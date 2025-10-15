@@ -1,0 +1,29 @@
+/* You can add global styles to this file, and also import other style files */
+@import "tailwindcss";
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+p{
+  color: wheat;
+}
+
+h1{
+  color: wheat;
+}
+
+@theme {  
+    --color-midnight: #222222;  
+    --color-purple: #6b1135;
+    --color-purplered: #c7173d;
+    --color-orange: #f5783c;
+    --color-yellow: #fed051;
+}
+
+app-root {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
